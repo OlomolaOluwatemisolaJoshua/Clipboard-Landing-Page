@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: myFont;
+  src: url(Bai_Jamjuree/BaiJamjuree-Regular.ttf);
+}
+body {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: hsl(210, 10%, 33%);
+  display: flex;
+  font-family: myFont;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+main{
+    margin: 50px auto;
+    width: 100%;
+    padding: 50px;
+}
+footer {
+    background-color:hsl(201, 11%, 66%);
+    padding: 20px;
+    width: 100%;
+    margin-top: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.div5 {
+    margin-top: 50px;
+    display: flex;
+    gap: 90px;
+}
+.div6 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  text-align: start;
+}
+.button1 {
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+button:hover {
+  cursor: pointer;
+  color: gold;
+}
+.div4 {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.div3 {
+  display: flex;
+  flex-direction: column;
+}
+.div7 {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 105px;
+}
+.div8 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.div9 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.div11 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.blacklist {
+    margin-top: 20px;
+     display: flex;
+}
+.btn1 {
+  border: 2px solid hsl(171, 66%, 44%);
+  border-radius: 30px;
+  background-color: hsl(171, 66%, 44%);
+  color: hsl(0, 0%, 100%);
+  width: 200px;
+  height: 50px;
+}
+.btn1:hover {
+  background-color: hsl(172, 68%, 17%);
+}
+.btn2 {
+  border: 2px solid hsl(233, 100%, 69%);
+  border-radius: 30px;
+  background-color: hsl(233, 100%, 69%);
+  color: hsl(0, 0%, 100%);
+  width: 200px;
+  height: 50px;
+}
+.btn2:hover {
+  background-color: hsl(233, 54%, 24%);
+}
+#divv1:hover {
+  cursor: pointer;
+}
+.divv2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.divv3 {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.footer {
+  display: flex;
+  gap: 400px;
+}
+.image {
+  width: 30px;
+  height: 30px;
+}
+.divv1 {
+  margin: 90px auto;
+  display: flex;
+  gap: 60px;
+}
+.but:hover {
+  cursor: pointer;
+}
+.divv4 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: start;
+}
+.divvv4 {
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+}
+.divvv4:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+.logo{
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+.face:hover{
+    background-color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.twit:hover{
+    background-color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.ig:hover{
+    background-color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+.logoo{
+    display: flex;
+    flex-direction: row;    
+    gap: 100px;
+}
+@media screen and (max-width: 1120px) {
+    body {
+        background-image: url(images/bg-header-mobile.png);
+        padding: 0;
+    }
+    main {
+      width: 100%;
+      padding: 10px;
+    }
+  .button1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn1 {
+    width: 350px;
+  }
+  .btn2 {
+    width: 350px;
+  }
+  .divv1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .blacklist {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .div5 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .div6{
+    text-align: center;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+  .image {
+    width: 70px;
+    height: 70px;
+  }
+  .logo{
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    }
+  .divv4{
+    display: flex;
+    gap: 20px;
+    text-align: center;
+  }
+  .logoo{
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
