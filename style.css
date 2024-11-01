@@ -195,17 +195,17 @@ button:hover {
     }
     main {
       width: 100%;
-      padding: 10px;
     }
   .button1 {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
   .btn1 {
-    width: 350px;
+    width: 100%;
   }
   .btn2 {
-    width: 350px;
+    width: 100%;
   }
   .divv1 {
     display: flex;
